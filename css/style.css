@@ -2122,79 +2122,7 @@ p.contact_success_box{
 	margin-bottom:100px;
 }
 
-/* ===================================
-    Botão do Whatsapp
-====================================== */
 
-#div-fixa {
-    position: fixed;
-    bottom: 50px;
-    margin: 0 1000px;
-    background: rgba(62, 158, 83, 0.801);
-    width: 230px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.5s all;
-}
-
-#div-fixa:hover {
-    position: fixed;
-    bottom: 50px;
-    margin: 0 1000px;
-    background: rgba(0, 255, 13, 0.801);
-    width: 230px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.5s all;
-    transform: scale(1.1) rotate(0deg);
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.815);
-}
-
-#div-fixa .shrink {
-    width: 50px;
-    transition: 0.5s all;
-    overflow: hidden;
-}
-
-#div-fixa img {
-    width: 50px;
-    height: 50px;
-}
-
-#div-fixa a .flex-itens {
-    display: flex;
-    align-items: center;
-}
-
-#div-fixa a .flex-itens spam {
-    display: block;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: #000000;
-    margin-left: 5px;
-    font-size: 18px;
-}
-
-.flutuar {
-    animation-name: flutuar;
-    animation-duration: 0.7s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-
-}
-
-
-@keyframes flutuar {
-    form {
-        transform: translate3d(0, 0, 0);
-        filter: brightness(80%);
-    }
-    to {
-        transform: translate3d(0, -15px, 0);
-        filter: brightness(200%);
-    }
-}
 
 /* ----- 1. Buttons ----- */
 .btn, btn:hover{
