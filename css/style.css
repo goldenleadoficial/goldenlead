@@ -1782,8 +1782,8 @@ input.register-input{
     padding-left:2%;
     padding-right:2%;
 	margin-bottom:20px;
-	color: #fff;
-	border: 1px solid #fff;
+	color: rgb(0, 0, 0);
+	border: 1px solid rgb(0, 0, 0);
 	background-color: transparent;
     font-size:14px;
 	float:left;
@@ -1798,8 +1798,8 @@ select.register-input{
     padding-left:2%;
     padding-right:2%;
 	margin-bottom:20px;
-	color: #fff;
-	border: 1px solid #fff;
+	color: rgb(0, 0, 0);
+	border: 1px solid rgb(0, 0, 0);
 	background-color: transparent;
     font-size:14px;
 	float:left;
@@ -1810,8 +1810,8 @@ select.register-input{
 
 input.register-submit{
 	color: rgba(177, 134, 27, 0.815);
-	border: 1px solid #fff;
-	background-color: #fff;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
@@ -1839,19 +1839,19 @@ input.register-submit:hover{
 
 input.white-input::-webkit-input-placeholder,
 select.white-input::-webkit-input-placeholder { /* WebKit browsers */
-    color:#fff!important;
+    color:rgb(0, 0, 0)!important;
 }
 input.white-input:-moz-placeholder,
 select.white-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:#fff!important;
+    color:#000000;
 }
 input.white-input::-moz-placeholder,
 select.white-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:#fff!important;
+    color:rgb(0, 0, 0)!important;
 }
 input.white-input:-ms-input-placeholder,
 select.white-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:#fff;
+    color:rgb(0, 0, 0);
 }
 
 #register-form input.register-input:focus, #register-form select.register-input:focus {
